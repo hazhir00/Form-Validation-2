@@ -1,0 +1,113 @@
+/* ? Imports */
+/* _______________________________________________________________ */
+
+/* ? Variables */
+:root {
+   /* Color Theme */
+
+   /* Typography */
+
+   /* Spacing */
+
+   /* Border Radius */
+
+   /* Shadows */
+}
+
+/* ? Color Theme for Dark mode goes here */
+/* .dark-mode {
+
+} */
+/* _______________________________________________________________ */
+/* !Main CSS */
+body {
+   min-height: 100vh;
+   background: linear-gradient(135deg, #00dbde 0%, #fc00ff 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main {
+   background: hsla(0, 0%, 100%, 0.1);
+   display: flex;
+   flex-direction: column;
+   padding: 1.5em;
+   border-radius: 10px;
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   margin-block: 2em;
+}
+
+main h1 {
+   text-align: center;
+   color: hsl(0, 0%, 20%);
+   margin-bottom: 1em;
+}
+
+.name {
+   display: flex;
+}
+
+.inner-name {
+   display: flex;
+   flex-direction: column;
+}
+
+input {
+   background: rgba(255, 255, 255, 0.3);
+   padding: 0.5em;
+   margin-block: 0.5em;
+   border-radius: 5px;
+}
+
+.inner-name:first-child {
+   margin-right: 2em;
+}
+
+textarea {
+   background: rgba(255, 255, 255, 0.3);
+   padding: 0.5em;
+   margin-block: 0.5em;
+   border-radius: 5px;
+   resize: none;
+}
+
+button {
+   background: linear-gradient(315deg, #00dbde 0%, #fc00ff 100%);
+   margin-top: 1em;
+   padding: 0.5em;
+   width: 30%;
+   border-radius: 10px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+
+.error {
+   background: red;
+   color: #fff;
+   width: max-content;
+   padding: 0.25em 0.5em;
+   border-radius: 5px;
+   margin-block: 0.4em;
+   font-size: 0.9rem;
+   display: none;
+}
+
+/* _______________________________________________________________ */
+/* ? Media Queries */
+/* Different Screen Sizes 
+-Small Mobile = 320px
+-Medium Mobile = 375px
+-Large Mobile = 425px
+Tablet = 768px
+Laptop = 1024px
+Large Laptop = 1440px
+4K = 2560px
+*/
+
+/* @media() {
+} */
+/* _______________________________________________________________ */
